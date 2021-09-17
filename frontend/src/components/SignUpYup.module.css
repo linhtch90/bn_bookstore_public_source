@@ -1,0 +1,44 @@
+.pageTitle {
+    text-align: center;
+}
+
+.outerContainer {
+    margin: auto;
+    width: 100%;
+}
+
+.innerContainer {
+    margin: auto;
+    width: 85%;
+    padding-top: 60px;
+}
+
+.formContainer {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+
+.inputText {
+    padding: 8px;
+    background-color: #E5E9F0;
+    border: solid;
+    border-width: 3px;
+    border-radius: 3px;
+    border-color: #106EBE;
+}
+
+.inputText:focus {
+    outline: none;
+}
+
+.labelText {
+    font-weight: 700;
+}
+
+.errorText {
+    color: #BF616A;
+}
+

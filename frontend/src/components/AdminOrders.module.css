@@ -1,0 +1,9 @@
+.outerContainer {
+    margin: auto;
+    width: 100%;
+}
+
+.innerContainer {
+    margin: auto;
+    width: 85%;
+}

@@ -1,0 +1,92 @@
+.outerContainer {
+    margin: auto;
+    width: 100%;
+    background-color: #D8DEE9;
+}
+
+.innerContainer {
+    margin: auto;
+    width: 85%;
+}
+
+.navbarContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 7rem;
+    justify-content: space-between;
+}
+
+.logoContainer {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.menuContainer {
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    height: 100%;
+}
+
+.menuItem {
+    display: flex;
+    width: 11rem;
+    height: 100%;    
+    justify-content: center;
+    align-items: center;
+    font-size: 1.7rem;
+    font-weight: 900;
+}
+
+.menuItem:hover {
+    color: #BF616A;
+    cursor: pointer;
+}
+
+.menuText {
+    text-decoration: none;
+    color: inherit;
+    width: 100%;
+}
+
+.navUser {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.navButton {
+    width: 100%;
+}
+
+.navCartContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cartIcon {
+    color: #2E3440;
+}
+
+.cartIcon:hover {
+    cursor: pointer;
+}
+
+.badgeContent {
+    background-color: #BF616A;
+}
+
+
+
+
+
+

@@ -1,0 +1,14 @@
+.orderContainer {
+    width: 100%;
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.orderTotal {
+    margin-bottom: 2rem;
+}
+
+.orderPrice {
+    color: #BF616A;
+}

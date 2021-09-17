@@ -1,0 +1,22 @@
+.outerContainer {
+    margin: auto;
+    width: 100%;
+}
+
+.innerContainer {
+    margin: auto;
+    width: 85%;
+}
+
+.cartInformation {
+    display: flex;
+}
+
+.cartBooks {
+    width: 70%;
+}
+
+.cartTotal {
+    width: 30%;
+}
+

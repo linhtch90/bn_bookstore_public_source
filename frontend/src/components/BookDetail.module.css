@@ -1,0 +1,65 @@
+.outerContainer {
+    margin: auto;
+    width: 100%;
+    margin-top: 4rem;
+}
+
+.innerContainer {
+    margin: auto;
+    width: 85%;
+}
+
+.imageContainer {
+    width: 25%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentContainer {
+    width: 75%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-left: solid;
+    border-width: 2px;
+    border-color: #5E81AC;
+    padding-left: 1rem;
+}
+
+.cardTitle {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #2E3440;
+}
+
+.cardAuthor {
+    font-size: 1.2rem;
+    font-style: italic;
+    color: #4C566A;
+}
+
+.cardPrice {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: #5E81AC;
+}
+
+.addCartButton {
+    margin-bottom: 0.5rem;
+    margin-right: 1rem;
+    width: 17%;
+}
+
+.cardButtonContainer {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.additionalInfo {
+    color: #D08770;
+    font-size: 1.2rem;
+    font-weight: 700;
+}

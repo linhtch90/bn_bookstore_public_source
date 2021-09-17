@@ -1,0 +1,26 @@
+.outerContainer {
+    margin: auto;
+    width: 100%;
+}
+
+.innerContainer {
+    margin: auto;
+    width: 85%;
+}
+
+.invoiceContainer {
+    border: solid;
+    border-radius: 5px;
+    border-width: 2px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}
+
+.invoiceContainer:nth-child(odd) {
+    background-color: #A3BE8C;
+}
+
+.invoiceContainer:nth-child(even) {
+    background-color: #81A1C1;
+}
+

@@ -1,0 +1,30 @@
+.outerContainer {
+    margin: auto;
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.innerContainer {
+    margin: auto;
+    width: 70%;
+}
+
+.currentPage {
+    width: 60px;
+    text-align: center;
+}
+
+.currentPageGroup {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.pageSwitchContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.switchButton {
+    text-decoration: none;
+}
